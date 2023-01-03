@@ -66,7 +66,7 @@ function BottomTabNavigator() {
         name="TabOne"
         component={TabOneScreen}
         options={{
-          tabBarIcon: ({ color }) => <AntDesign name='home' size={24} color={color}/>,
+          tabBarIcon: ({ color }) => <AntDesign name='home' size={24} color={color} />,
 
         }}
       />
