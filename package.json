@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@react-navigation/native-stack": "^6.9.7",
+    "@react-navigation/stack": "^6.3.10"
   }
 }

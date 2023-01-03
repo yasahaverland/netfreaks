@@ -20,9 +20,19 @@ const linking: LinkingOptions<RootStackParamList> = {
               TabOneScreen: 'one',
             },
           },
-          TabTwo: {
+          Coming_Soon: {
             screens: {
               TabTwoScreen: 'two',
+            },
+          },
+          Search: {
+            screens: {
+              TabThreeScreen: 'three',
+            },
+          },
+          Downloads: {
+            screens: {
+              TabFourScreen: 'four',
             },
           },
         },

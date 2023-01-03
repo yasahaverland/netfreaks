@@ -16,6 +16,8 @@ import ModalScreen from '../screens/ModalScreen';
 import NotFoundScreen from '../screens/NotFoundScreen';
 import TabOneScreen from '../screens/TabOneScreen';
 import TabTwoScreen from '../screens/TabTwoScreen';
+import TabThreeScreen from '../screens/TabTwoScreen';
+import TabFourScreen from '../screens/TabTwoScreen';
 import { RootStackParamList, RootTabParamList, RootTabScreenProps } from '../types';
 import LinkingConfiguration from './LinkingConfiguration';
 
@@ -32,7 +34,9 @@ export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeNa
 /**
  * A root stack navigator is often used for displaying modals on top of all other content.
  * https://reactnavigation.org/docs/modal
+ 
  */
+
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 function RootNavigator() {
@@ -80,7 +84,7 @@ function BottomTabNavigator() {
 
       <BottomTab.Screen
         name="Search"
-        component={TabTwoScreen}
+        component={TabThreeScreen}
         options={{
           tabBarIcon: ({ color }) => <Ionicons name='search' size={24} color={color} />,
         }}
@@ -88,7 +92,7 @@ function BottomTabNavigator() {
 
       <BottomTab.Screen
         name="Downloads"
-        component={TabTwoScreen}
+        component={TabFourScreen}
         options={{
           tabBarIcon: ({ color }) => <AntDesign name='download' size={24} color={color} />,
         }}
