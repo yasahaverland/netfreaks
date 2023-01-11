@@ -32,6 +32,11 @@ export type RootTabParamList = {
 
 };
 
+export type TabOneParamList = {
+  TabOneScreen: undefined;
+  MoviesDetailsScreen: undefined;
+}
+
 export type RootTabScreenProps<Screen extends keyof RootTabParamList> = CompositeScreenProps<
   BottomTabScreenProps<RootTabParamList, Screen>,
   NativeStackScreenProps<RootStackParamList>
