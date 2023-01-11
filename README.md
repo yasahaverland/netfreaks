@@ -10,7 +10,7 @@ A mockup app based on Netflix, developed following notJust․dev’s youtube tut
 ## Tech Stack Used
 - React Native
 - TypeScript
-- JavaScipt
+- JavaScript
 - Expo
 - Amazon Web Services Amplify
 - Git and GitHub
